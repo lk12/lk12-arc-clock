@@ -1,0 +1,19 @@
+*.class
+*.pyc
+local.properties
+
+# don't accidentially add keystores
+*.keystore
+
+# don't add apks
+/apk
+
+# Gradle
+/.gradle/
+build/
+gradle.properties
+
+# IDEA
+.idea/
+out/
+*.iml
